@@ -28,29 +28,38 @@ The aspect I like the most about PlantUML, is that it is a text-based diagrammin
 
 ## Table of Contents
 
-- [What is UMl?](#what-is-uml)
-- [Sequence diagram](#sequence-diagram)
-- [Sequence diagram with steps and divider](#sequence-diagram-with-steps-and-divider)
-- [Sequence diagram with participant shapes](#sequence-diagram-with-participant-shapes)
-- [Usecase diagram](#usecase-diagram)
-- [Object diagram](#object-diagram)
-- [Class diagram](#class-diagram)
-- [Entity relationship diagram (ERD)](#entity-relationship-diagram-erd)
-- [Package styles](#package-styles)
-- [Activity diagram](#activity-diagram)
-- [Component diagram of items](#component-diagram-of-items)
-- [State diagram](#state-diagram)
-- [Deployment diagram items](#deployment-diagram-items)
-- [Timing diagram](#timing-diagram)
-- [Diagrams through ASCII art (DITAA)](#diagrams-through-ascii-art-ditaa)
-- [Wireframe](#wireframe)
-- [Gantt chart](#gantt-chart)
-- [Mind map](#mind-map)
-- [JSON data](#json-data)
-- [YAML data](#yaml-data)
-- [Network diagram](#network-diagram)
-- [Work breakdown structure (WBS)](#work-breakdown-structure-wbs)
-- [OpenIconic](#openiconic)
+- [What is UML?](#what-is-uml)
+- [Getting Started](#getting-started)
+- [Examples](#examples)
+  - [Sequence diagram](#sequence-diagram)
+  - [Sequence diagram with steps and divider](#sequence-diagram-with-steps-and-divider)
+  - [Sequence diagram with participant shapes](#sequence-diagram-with-participant-shapes)
+  - [Usecase diagram](#usecase-diagram)
+  - [Object diagram](#object-diagram)
+  - [Class diagram](#class-diagram)
+  - [Entity relationship diagram (ERD)](#entity-relationship-diagram-erd)
+  - [Package styles](#package-styles)
+  - [Activity diagram](#activity-diagram)
+  - [Component diagram of items](#component-diagram-of-items)
+  - [State diagram](#state-diagram)
+  - [Deployment diagram items](#deployment-diagram-items)
+  - [Timing diagram](#timing-diagram)
+  - [Diagrams through ASCII art (DITAA)](#diagrams-through-ascii-art-ditaa)
+  - [Wireframe](#wireframe)
+  - [Gantt chart](#gantt-chart)
+  - [Mind map](#mind-map)
+  - [JSON data](#json-data)
+  - [YAML data](#yaml-data)
+  - [Network diagram](#network-diagram)
+  - [Work breakdown structure (WBS)](#work-breakdown-structure-wbs)
+  - [OpenIconic](#openiconic)
+  - [Font Awesome](#font-awesome)
+  - [Procedure](#procedure)
+  - [Procedure layout](#procedure-layout)
+  - [Area diagram](#area-diagram)
+  - [C4 model](#c4-model)
+  - [Standard library](#standard-library)
+  - [OpenIconic list](#openiconic-list)
 - [Resources](#resources)
 - [Credits](#credits)
 
@@ -69,7 +78,11 @@ The aspect I like the most about PlantUML, is that it is a text-based diagrammin
 - Use the examples provided below to create your own diagrams. Copy the source code from the example and paste it into the online server. Then click the **Submit** button to create the diagram. You can also click the **Edit** button to make changes to the source code and then click the **Submit** button to create the diagram.
 - You can also find the examples located in the [examples folder](./examples) of this repository. The examples folder contains the source code and the diagram image for each example. You can copy the source code from the example and paste it into the online server. Then click the **Submit** button to create the diagram.
  
-## Sequence diagram
+## Examples
+
+Below are examples of diagrams that can be created with PlantUML. 
+
+### Sequence diagram
 
 ![Sequence diagram](examples/sequence-diagram/sequence-diagram.plantuml.png)
 
@@ -85,7 +98,7 @@ Bravo -> Alpha
 </details>
 
 
-## Sequence diagram with steps and divider
+### Sequence diagram with steps and divider
 
 ![Sequence diagram extras](examples/sequence-diagram-extras/sequence-diagram-extras.plantuml.png)
 
@@ -104,7 +117,7 @@ Bravo -> Alpha: Step 4
 </details>
 
 
-## Sequence diagram with participant shapes
+### Sequence diagram with participant shapes
 
 ![Sequence diagram extras](examples/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png)
 
@@ -133,7 +146,7 @@ Foo -> Foo7: To queue
 </details>
 
 
-## Usecase diagram
+### Usecase diagram
 
 ![Usecase diagram](examples/usecase-diagram/usecase-diagram.plantuml.png)
 
@@ -151,7 +164,7 @@ User1 --> (Story1)
 </details>
 
 
-## Object diagram
+### Object diagram
 
 ![Object diagram](examples/object-diagram/object-diagram.plantuml.png)
 
@@ -183,7 +196,7 @@ Object1 <|-- Object3
 </details>
 
 
-## Class diagram
+### Class diagram
 
 ![Class diagram](examples/class-diagram/class-diagram.plantuml.png)
 
@@ -218,7 +231,7 @@ Class1 <|--* Class3
 </details>
 
 
-## Entity relationship diagram (ERD)
+### Entity relationship diagram (ERD)
 
 ![Entity relationship diagram](examples/entity-relationship-diagram/entity-relationship-diagram.plantuml.png)
 
@@ -254,7 +267,7 @@ Entity1 }o-down-o{ Entity3
 </details>
 
 
-## Package styles
+### Package styles
 
 ![Package styles](examples/package-styles/package-styles.plantuml.png)
 
@@ -285,7 +298,7 @@ package "Demo Database" <<Database>> {
 </details>
 
 
-## Activity diagram
+### Activity diagram
 
 ![Activity diagram](examples/activity-diagram/activity-diagram.plantuml.png)
 
@@ -310,7 +323,7 @@ stop
 </details>
 
 
-## Component diagram of items
+### Component diagram of items
 
 ![Component diagram](examples/component-diagram/component-diagram.plantuml.png)
 
@@ -330,7 +343,7 @@ package "Package"
 </details>
 
 
-## State diagram
+### State diagram
 
 ![State diagram](examples/state-diagram/state-diagram.plantuml.png)
 
@@ -351,7 +364,7 @@ State3 : Description 3
 </details>
 
 
-## Deployment diagram items
+### Deployment diagram items
 
 ![Deployment diagram](examples/deployment-diagram/deployment-diagram.plantuml.png)
 
@@ -391,7 +404,7 @@ usecase usecase
 </details>
 
 
-## Timing diagram
+### Timing diagram
 
 ![Timing diagram](examples/timing-diagram/timing-diagram.plantuml.png)
 
@@ -411,7 +424,7 @@ concise "My Timeline" as T
 </details>
 
 
-## Diagrams through ASCII art (DITAA)
+### Diagrams through ASCII art (DITAA)
 
 ![Diagrams through ASCII art](examples/diagrams-through-ascii-art/diagrams-through-ascii-art.plantuml.png)
 
@@ -434,7 +447,7 @@ ditaa
 </details>
 
 
-## Wireframe
+### Wireframe
 
 ![Wireframe](examples/wireframe/wireframe.plantuml.png)
 
@@ -458,7 +471,7 @@ salt
 </details>
 
 
-## Gantt chart
+### Gantt chart
 
 ![Gantt chart](examples/gantt-chart/gantt-chart.plantuml.png)
 
@@ -475,7 +488,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 </details>
 
 
-## Mind map
+### Mind map
 
 ![Mind map](examples/mind-map/mind-map.plantuml.png)
 
@@ -493,7 +506,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 </details>
 
 
-## JSON data
+### JSON data
 
 ![JSON data](examples/json-data/json-data.plantuml.png)
 
@@ -511,7 +524,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 </details>
 
 
-## YAML data
+### YAML data
 
 ![YAML data](examples/yaml-data/yaml-data.plantuml.png)
 
@@ -529,7 +542,7 @@ color:
 </details>
 
 
-## Network diagram
+### Network diagram
 
 ![Network diagram](examples/network-diagram/network-diagram.plantuml.png)
 
@@ -550,7 +563,7 @@ nwdiag {
 </details>
 
 
-## Work breakdown structure (WBS)
+### Work breakdown structure (WBS)
 
 ![Work breakdown structure](examples/work-breakdown-structure/work-breakdown-structure.plantuml.png)
 
@@ -570,7 +583,7 @@ nwdiag {
 </details>
 
 
-## OpenIconic
+### OpenIconic
 
 ![OpenIconic](examples/openiconic/openiconic.plantuml.png)
 
@@ -586,7 +599,7 @@ title: <&heart> Demo <&heart>
 OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 
-## Font Awesome
+### Font Awesome
 
 ![Font Awesome](examples/font-awesome/font-awesome.plantuml.png)
 
@@ -602,7 +615,7 @@ rectangle "<$star>"
 </details>
 
 
-## Procedure
+### Procedure
 
 ![Procedure diagram](examples/procedure/procedure.plantuml.png)
 
@@ -752,7 +765,7 @@ Pipeline3Control2 -u-> Pipeline3
 </details>
 
 
-## C4 model
+### C4 model
 
 ![C4 model](examples/c4-model/c4-model.plantuml.png)
 
@@ -778,7 +791,7 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 [C4 Model](https://c4model.com/) focuses diagrams on four areas: Context, Containers, Components, Code.
 
 
-## Standard library
+### Standard library
 
 ![Standard library](examples/standard-library/standard-library.plantuml.png)
 
@@ -794,7 +807,7 @@ stdlib
 You can list standard library folders by using the special diagram "stdlib".
 
 
-## OpenIconic list
+### OpenIconic list
 
 ![OpenIconic](examples/openiconic-list/openiconic-list.plantuml.png)
 
