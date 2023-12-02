@@ -57,7 +57,7 @@ The aspect I like the most about PlantUML, is that it is a text-based diagrammin
 ## What is UML?
 
 <div align="center">
-    <img src="./docs/images/uml.png" />
+    <img src="./docs/images/uml_banner.png" />
 </div>
 <br>
 
