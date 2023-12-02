@@ -1,11 +1,77 @@
-# PlantUML examples
+<!-- Begin README -->
+
+<div align="center">
+    <a href="https://github.com/scottgriv/plantuml-examples" target="_blank">
+        <img src="./docs/images/icon.png" width="150" height="150"/>
+    </a>
+</div>
+<br>
+<p align="center">
+    <a href="https://www.omg.org/spec/UML/"><img src="https://img.shields.io/badge/UML-2.5-FABD14?style=for-the-badge&logo=uml" alt="PlantUML Badge" /></a>
+    <br>
+    <a href="https://github.com/scottgriv"><img src="https://img.shields.io/badge/github-follow_me-181717?style=for-the-badge&logo=github&color=181717" alt="GitHub Badge" /></a>
+    <a href="mailto:scott.grivner@gmail.com"><img src="https://img.shields.io/badge/gmail-contact_me-EA4335?style=for-the-badge&logo=gmail" alt="Email Badge" /></a>
+    <a href="https://www.buymeacoffee.com/scottgriv"><img src="https://img.shields.io/badge/buy_me_a_coffee-support_me-FFDD00?style=for-the-badge&logo=buymeacoffee&color=FFDD00" alt="BuyMeACoffee Badge" /></a>
+    <br>
+    <a href="https://prgoptimized.com" target="_blank"><img src="https://img.shields.io/badge/PRG-Bronze Project-CD7F32?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNDRDdGMzIiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Bronze" /></a>
+</p>
+
+---------------
+
+<h1 align="center">PlantUML Examples</h1>
 
 [PlantUML](http://plantuml.com) is a software tool that uses text formatting to create graphic diagrams. This page introduces PlantUML by showing examples with diagrams and source code, for UML, ERD, wireframes, mind maps, JSON, YAML, WBS, ASCII art, Gantt charts, C4 models, and more. 
 
+The aspect I like the most about PlantUML, is that it is a text-based diagramming tool. This means you can upload your diagrams to GitHub and other source control systems. You can also use PlantUML to create diagrams in your favorite text editor. This is a great way to create diagrams for your documentation, `README` files, and more.
 
+---------------
+
+## Table of Contents
+
+- [What is UMl?](#what-is-uml)
+- [Sequence diagram](#sequence-diagram)
+- [Sequence diagram with steps and divider](#sequence-diagram-with-steps-and-divider)
+- [Sequence diagram with participant shapes](#sequence-diagram-with-participant-shapes)
+- [Usecase diagram](#usecase-diagram)
+- [Object diagram](#object-diagram)
+- [Class diagram](#class-diagram)
+- [Entity relationship diagram (ERD)](#entity-relationship-diagram-erd)
+- [Package styles](#package-styles)
+- [Activity diagram](#activity-diagram)
+- [Component diagram of items](#component-diagram-of-items)
+- [State diagram](#state-diagram)
+- [Deployment diagram items](#deployment-diagram-items)
+- [Timing diagram](#timing-diagram)
+- [Diagrams through ASCII art (DITAA)](#diagrams-through-ascii-art-ditaa)
+- [Wireframe](#wireframe)
+- [Gantt chart](#gantt-chart)
+- [Mind map](#mind-map)
+- [JSON data](#json-data)
+- [YAML data](#yaml-data)
+- [Network diagram](#network-diagram)
+- [Work breakdown structure (WBS)](#work-breakdown-structure-wbs)
+- [OpenIconic](#openiconic)
+- [Resources](#resources)
+- [Credits](#credits)
+
+## What is UML?
+
+<div align="center">
+    <img src="./docs/images/uml.png" />
+</div>
+<br>
+
+**UML** stands for **Unified Modeling Language**. UML is a standardized modeling language that is used to specify, visualize, construct, and document the artifacts of a software system. UML was created by the [Object Management Group (OMG)](https://www.omg.org/spec/UML/) and UML 1.0 specification draft was proposed to the OMG in January 1997. UML 2.5.1 is the latest version of UML and was released in June 2017.
+
+## Getting Started
+
+- Use the [PlantUML online server](http://www.plantuml.com/plantuml) to create diagrams. The online server is free and does not require any installation. You can also install PlantUML locally on your computer. See the [PlantUML installation page](http://plantuml.com/starting) for more information.
+- Use the examples provided below to create your own diagrams. Copy the source code from the example and paste it into the online server. Then click the **Submit** button to create the diagram. You can also click the **Edit** button to make changes to the source code and then click the **Submit** button to create the diagram.
+- You can also find the examples located in the [examples folder](./examples) of this repository. The examples folder contains the source code and the diagram image for each example. You can copy the source code from the example and paste it into the online server. Then click the **Submit** button to create the diagram.
+ 
 ## Sequence diagram
 
-![Sequence diagram](doc/sequence-diagram/sequence-diagram.plantuml.png)
+![Sequence diagram](examples/sequence-diagram/sequence-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -21,7 +87,7 @@ Bravo -> Alpha
 
 ## Sequence diagram with steps and divider
 
-![Sequence diagram extras](doc/sequence-diagram-extras/sequence-diagram-extras.plantuml.png)
+![Sequence diagram extras](examples/sequence-diagram-extras/sequence-diagram-extras.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -40,7 +106,7 @@ Bravo -> Alpha: Step 4
 
 ## Sequence diagram with participant shapes
 
-![Sequence diagram extras](doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png)
+![Sequence diagram extras](examples/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -69,7 +135,7 @@ Foo -> Foo7: To queue
 
 ## Usecase diagram
 
-![Usecase diagram](doc/usecase-diagram/usecase-diagram.plantuml.png)
+![Usecase diagram](examples/usecase-diagram/usecase-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -87,7 +153,7 @@ User1 --> (Story1)
 
 ## Object diagram
 
-![Object diagram](doc/object-diagram/object-diagram.plantuml.png)
+![Object diagram](examples/object-diagram/object-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -119,7 +185,7 @@ Object1 <|-- Object3
 
 ## Class diagram
 
-![Class diagram](doc/class-diagram/class-diagram.plantuml.png)
+![Class diagram](examples/class-diagram/class-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -154,7 +220,7 @@ Class1 <|--* Class3
 
 ## Entity relationship diagram (ERD)
 
-![Entity relationship diagram](doc/entity-relationship-diagram/entity-relationship-diagram.plantuml.png)
+![Entity relationship diagram](examples/entity-relationship-diagram/entity-relationship-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -190,7 +256,7 @@ Entity1 }o-down-o{ Entity3
 
 ## Package styles
 
-![Package styles](doc/package-styles/package-styles.plantuml.png)
+![Package styles](examples/package-styles/package-styles.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -221,7 +287,7 @@ package "Demo Database" <<Database>> {
 
 ## Activity diagram
 
-![Activity diagram](doc/activity-diagram/activity-diagram.plantuml.png)
+![Activity diagram](examples/activity-diagram/activity-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -246,7 +312,7 @@ stop
 
 ## Component diagram of items
 
-![Component diagram](doc/component-diagram/component-diagram.plantuml.png)
+![Component diagram](examples/component-diagram/component-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -266,7 +332,7 @@ package "Package"
 
 ## State diagram
 
-![State diagram](doc/state-diagram/state-diagram.plantuml.png)
+![State diagram](examples/state-diagram/state-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -287,7 +353,7 @@ State3 : Description 3
 
 ## Deployment diagram items
 
-![Deployment diagram](doc/deployment-diagram/deployment-diagram.plantuml.png)
+![Deployment diagram](examples/deployment-diagram/deployment-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -327,7 +393,7 @@ usecase usecase
 
 ## Timing diagram
 
-![Timing diagram](doc/timing-diagram/timing-diagram.plantuml.png)
+![Timing diagram](examples/timing-diagram/timing-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -347,7 +413,7 @@ concise "My Timeline" as T
 
 ## Diagrams through ASCII art (DITAA)
 
-![Diagrams through ASCII art](doc/diagrams-through-ascii-art/diagrams-through-ascii-art.plantuml.png)
+![Diagrams through ASCII art](examples/diagrams-through-ascii-art/diagrams-through-ascii-art.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -370,7 +436,7 @@ ditaa
 
 ## Wireframe
 
-![Wireframe](doc/wireframe/wireframe.plantuml.png)
+![Wireframe](examples/wireframe/wireframe.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -394,7 +460,7 @@ salt
 
 ## Gantt chart
 
-![Gantt chart](doc/gantt-chart/gantt-chart.plantuml.png)
+![Gantt chart](examples/gantt-chart/gantt-chart.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -411,7 +477,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 
 ## Mind map
 
-![Mind map](doc/mind-map/mind-map.plantuml.png)
+![Mind map](examples/mind-map/mind-map.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -429,7 +495,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 
 ## JSON data
 
-![JSON data](doc/json-data/json-data.plantuml.png)
+![JSON data](examples/json-data/json-data.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -447,7 +513,7 @@ then [Task3] on {Carol} lasts 2 days at 25%
 
 ## YAML data
 
-![YAML data](doc/yaml-data/yaml-data.plantuml.png)
+![YAML data](examples/yaml-data/yaml-data.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -465,7 +531,7 @@ color:
 
 ## Network diagram
 
-![Network diagram](doc/network-diagram/network-diagram.plantuml.png)
+![Network diagram](examples/network-diagram/network-diagram.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -486,7 +552,7 @@ nwdiag {
 
 ## Work breakdown structure (WBS)
 
-![Work breakdown structure](doc/work-breakdown-structure/work-breakdown-structure.plantuml.png)
+![Work breakdown structure](examples/work-breakdown-structure/work-breakdown-structure.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -506,7 +572,7 @@ nwdiag {
 
 ## OpenIconic
 
-![OpenIconic](doc/openiconic/openiconic.plantuml.png)
+![OpenIconic](examples/openiconic/openiconic.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -522,7 +588,7 @@ OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.
 
 ## Font Awesome
 
-![Font Awesome](doc/font-awesome/font-awesome.plantuml.png)
+![Font Awesome](examples/font-awesome/font-awesome.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -538,7 +604,7 @@ rectangle "<$star>"
 
 ## Procedure
 
-![Procedure diagram](doc/procedure/procedure.plantuml.png)
+![Procedure diagram](examples/procedure/procedure.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -558,7 +624,7 @@ $demo(MyCard, "Hello World", "This is a demonstration")
 
 ## Procedure layout
 
-![Procedure layout diagram](doc/procedure-layout/procedure-layout.plantuml.png)
+![Procedure layout diagram](examples/procedure-layout/procedure-layout.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -582,7 +648,7 @@ This shows how to create your own procedure to create a custom layout with a sha
 
 ## Area diagram
 
-![Area diagram](doc/area-diagram/area-diagram.plantuml.png)
+![Area diagram](examples/area-diagram/area-diagram.plantuml.png)
 
 The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.
 
@@ -688,7 +754,7 @@ Pipeline3Control2 -u-> Pipeline3
 
 ## C4 model
 
-![C4 model](doc/c4-model/c4-model.plantuml.png)
+![C4 model](examples/c4-model/c4-model.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -714,7 +780,7 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 
 ## Standard library
 
-![Standard library](doc/standard-library/standard-library.plantuml.png)
+![Standard library](examples/standard-library/standard-library.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -730,7 +796,7 @@ You can list standard library folders by using the special diagram "stdlib".
 
 ## OpenIconic list
 
-![OpenIconic](doc/openiconic-list/openiconic-list.plantuml.png)
+![OpenIconic](examples/openiconic-list/openiconic-list.plantuml.png)
 
 <details>
 <summary>View Source</summary>
@@ -742,3 +808,33 @@ listopeniconic
 </details>
 
 You can list all the OpenIconic icon names and images by using the special diagram "listopeniconic".
+
+## Resources
+
+- [PlantUML](http://plantuml.com)
+- [PlantUML Language Reference Guide](http://plantuml.com/guide)
+- [PlantUML Standard Library](http://plantuml.com/stdlib)
+- [Object Management Group (OMG) UML Resource Page from OMG](https://www.omg.org/spec/UML/)
+- [Unified Modeling Language (UML)](https://www.uml-diagrams.org)
+- [UML Diagrams Examples](https://www.uml-diagrams.org/examples.html)
+- [UML Wikipedia](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
+
+## Credits
+
+**Forked From:** [PlantUML Examples](https://github.com/joelparkerhenderson/plantuml-examples) <br>
+I would like to express my gratitude to **Joel Parker Henderson** for their contribution to this project.
+
+**Author:** [Scott Grivner](https://github.com/scottgriv) <br>
+**Email:** [scott.grivner@gmail.com](mailto:scott.grivner@gmail.com) <br>
+**Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
+**Reference:** [Main Branch](https://github.com/scottgriv/plantuml-examples <br>
+
+---------------
+
+<div align="center">
+    <a href="https://github.com/scottgriv" target="_blank">
+        <img src="./docs/images/footer.png" width="100" height="100"/>
+    </a>
+</div>
+
+<!-- End README -->
