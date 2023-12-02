@@ -13,8 +13,8 @@ This file is used to connect this repository to the **PRG** project categorizati
 ## Project Information
 
 **Repository Tier:** Bronze <br>
-**Technology:** Java <br>
-**Category:** Console Application <br>
+**Technology:** PlantUML, UML <br>
+**Category:** Software Diagrams & Models <br>
 **Order:** 0 <br>
 
 ## Parameters
